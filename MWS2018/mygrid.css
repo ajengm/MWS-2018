@@ -1,0 +1,82 @@
+.konten {
+	/*background: lightpink;
+	grid-column: 2/-1;*/
+	display: grid;
+	/*grid-gap: 4px;*/
+	height: 100%;
+	grid-template-columns: repeat(4,1fr);
+	grid-template-rows: 50px 250px 80px 80px 80px 100px;
+	
+}
+
+.menu{
+	background-color: lightgrey;
+	/*min-height: 650px;*/
+	grid-column-start: 1;
+	grid-column-end: -1;
+}
+
+.menu ul{
+	text-align: right;
+	text-decoration: none;
+}
+.headbar{
+	background: lavenderblush;
+	grid-column-start: 1;
+	grid-column-end: -1;
+}
+.headbar img{
+	width: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.headbar h1{
+	text-align: center;
+	font-family: monospace;
+	font-size: 30px;
+
+}
+.headbar p{
+	text-align: center;
+	font-family: monospace;
+	font-size: 20px;
+}
+.sidebar{
+	
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+.sidebar img{
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.subkonten{
+	background: lightgrey;
+	/*grid column:1/-1;*/
+	grid-column-start: 2;
+	grid-column-end: -1;
+}
+.subkonten a{
+
+	width: 100%;
+	height: 100%;
+	line-height: 100%;
+	text-decoration: none;
+	font-family: monospace;
+	font-size: 20px;
+	color: black;
+
+}
+.subkonten:hover {
+	background: #dfe6e9;
+}
+.footer{
+	background: lavenderblush;
+	grid-column-start: 1;
+	grid-column-end: -1;
+}
